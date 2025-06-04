@@ -1,8 +1,11 @@
+import 'dart:io';
+
 class Demo{
   static int counter = 0;
 }
 class Increment extends Demo{
   void incrementCounter(){
+    int a = 0;
     print(Demo.counter++);
     print(Demo.counter++);
 }
