@@ -5,8 +5,6 @@ class UserFavouriteControllr{
   List<Map<String,dynamic>> get users => _userFav.users;
 
   void UserFav(String name,bool isFav){
-
     _userFav.addFavourite(name, isFav);
-
   }
 }
